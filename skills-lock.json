@@ -1,0 +1,127 @@
+{
+  "generated": "2026-09-30",
+  "source": "C:\\ai-workspace\\skills-lock.json",
+  "installation": "프로젝트 .agents/skills 실복사; 원본 수정 없음",
+  "skills": {
+    "brainstorming": {
+      "domain": "planning",
+      "source": "obra/superpowers",
+      "commit": "8ca22dba9a94f28898bbce59f2537ff4d87c747d",
+      "path": "skills/brainstorming",
+      "license": "MIT",
+      "patches": [],
+      "sha256": {
+        "agents": "70f99a1266d727ce929bb2b26a611ba970dc75904749539e0cb54e922d3a8bf0",
+        "claude": "70f99a1266d727ce929bb2b26a611ba970dc75904749539e0cb54e922d3a8bf0"
+      }
+    },
+    "research": {
+      "domain": "planning",
+      "source": "mattpocock/skills",
+      "commit": "d81f3a183412e71a5b1e84ca21bc1a35eea03a60",
+      "path": "skills/engineering/research",
+      "license": "MIT",
+      "patches": [],
+      "sha256": {
+        "agents": "08bcb2174b6ce83783874df604020ff181b39cfa8b7c709669e084d6b3143469",
+        "claude": "08bcb2174b6ce83783874df604020ff181b39cfa8b7c709669e084d6b3143469"
+      }
+    },
+    "frontend-design": {
+      "domain": "design",
+      "source": "anthropics/skills",
+      "commit": "8a1541c4a3ffa5a20a5a91de0dcf3f0bab1d1ef4",
+      "path": "skills/frontend-design",
+      "license": "Apache-2.0 (per-skill LICENSE.txt)",
+      "patches": [],
+      "sha256": {
+        "agents": "5289ca37d4510f3da53e76e8453e9247142be96912ec2a149e6c8353452f6bc1",
+        "claude": "5289ca37d4510f3da53e76e8453e9247142be96912ec2a149e6c8353452f6bc1"
+      }
+    },
+    "emil-design-eng": {
+      "domain": "design",
+      "source": "emilkowalski/skills",
+      "commit": "d16ebe60d09a5ba2afcb7054ede9d0a10c9f6128",
+      "path": "skills/emil-design-eng",
+      "license": "MIT",
+      "patches": [],
+      "sha256": {
+        "agents": "ecd9b1c2be8294b6a349af949325d5e50feb776ae6fcaeabb6ea3fc302a51c81",
+        "claude": "ecd9b1c2be8294b6a349af949325d5e50feb776ae6fcaeabb6ea3fc302a51c81"
+      }
+    },
+    "prototype": {
+      "domain": "development",
+      "source": "mattpocock/skills",
+      "commit": "d81f3a183412e71a5b1e84ca21bc1a35eea03a60",
+      "path": "skills/engineering/prototype",
+      "license": "MIT",
+      "patches": [],
+      "sha256": {
+        "agents": "2c340bb8268d0b7608abcc08f09b4e75f783d285227d88d913dbef77e5cd2140",
+        "claude": "2c340bb8268d0b7608abcc08f09b4e75f783d285227d88d913dbef77e5cd2140"
+      }
+    },
+    "accessibility-review": {
+      "domain": "design",
+      "source": "anthropics/knowledge-work-plugins",
+      "commit": "da38ec1ee89d41e5380e652a97382695003396e7",
+      "path": "design/skills/accessibility-review",
+      "license": "Apache-2.0",
+      "patches": [],
+      "sha256": {
+        "agents": "45c5bcba9cb3fb2e9c2980e76dbbbdfd9112f8b41372f9341b35f7e19e58273c",
+        "claude": "45c5bcba9cb3fb2e9c2980e76dbbbdfd9112f8b41372f9341b35f7e19e58273c"
+      }
+    },
+    "writing-plans": {
+      "domain": "planning",
+      "source": "obra/superpowers",
+      "commit": "8ca22dba9a94f28898bbce59f2537ff4d87c747d",
+      "path": "skills/writing-plans",
+      "license": "MIT",
+      "patches": [],
+      "sha256": {
+        "agents": "82705f99b799499621be793b84efc42fac03709e3ec8e53f16850d0f890a4c79",
+        "claude": "82705f99b799499621be793b84efc42fac03709e3ec8e53f16850d0f890a4c79"
+      }
+    },
+    "test-driven-development": {
+      "domain": "development",
+      "source": "obra/superpowers",
+      "commit": "8ca22dba9a94f28898bbce59f2537ff4d87c747d",
+      "path": "skills/test-driven-development",
+      "license": "MIT",
+      "patches": [],
+      "sha256": {
+        "agents": "3dff280a67479e43a3d1bae66bc859bd7d8d2476676171c8374b17505bdd9ae4",
+        "claude": "3dff280a67479e43a3d1bae66bc859bd7d8d2476676171c8374b17505bdd9ae4"
+      }
+    },
+    "systematic-debugging": {
+      "domain": "development",
+      "source": "obra/superpowers",
+      "commit": "8ca22dba9a94f28898bbce59f2537ff4d87c747d",
+      "path": "skills/systematic-debugging",
+      "license": "MIT",
+      "patches": [],
+      "sha256": {
+        "agents": "93496876831b5192ab571633e552fbf48811345743f5ce223584fd3ba5909092",
+        "claude": "93496876831b5192ab571633e552fbf48811345743f5ce223584fd3ba5909092"
+      }
+    },
+    "verification-before-completion": {
+      "domain": "development",
+      "source": "obra/superpowers",
+      "commit": "8ca22dba9a94f28898bbce59f2537ff4d87c747d",
+      "path": "skills/verification-before-completion",
+      "license": "MIT",
+      "patches": [],
+      "sha256": {
+        "agents": "58bff5160a800f010fd47adc86af00d8a8b6a79d41fcf671b95bc91fb24b0c96",
+        "claude": "58bff5160a800f010fd47adc86af00d8a8b6a79d41fcf671b95bc91fb24b0c96"
+      }
+    }
+  }
+}

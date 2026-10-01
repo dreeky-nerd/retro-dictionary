@@ -1,0 +1,14 @@
+# 조사용 제조사·언론사 자료 사본은 공개 저장소에 포함하지 않는다.
+/docs/design/references/*
+!/docs/design/references/README.md
+
+# 로컬 실행·비밀·임시 파일
+.env
+.env.*
+!.env.example
+.superpowers/
+node_modules/
+__pycache__/
+*.log
+.DS_Store
+Thumbs.db
